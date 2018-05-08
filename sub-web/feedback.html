@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="vi">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>MY PROFILE</title>
+        <!-- file css -->
+        <link rel="stylesheet" type ="text/css" href="sub-css/sub-style.css">
+        <!-- thư viện icon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- font -->
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oxygen|Signika" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oxygen|Rajdhani|Signika" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Muli|Oxygen|Rajdhani|Signika" rel="stylesheet">
+        <link rel="stylesheet" href="font/HelveticaNeue.otf">
+        <link rel="stylesheet" href="font/big_noodle_titling.ttf">
+        <link rel="stylesheet" href="font/OpenSans-Bold.ttf">
+        <script src="sub-javascript/sub-app.js"></script>
+    </head>
+
+    <body>
+        <div class ="container">
+            <div class="pas">FeedBack</div>
+            <div class="main">
+                <div class="enter-form">
+                        <input type="text" id="y-name" placeholder="Tên của bạn">
+                        <input type="email" id="y-mail" placeholder="Email của bạn"> <br>
+                        <textarea  id="y-content" rows="100" cols="100" placeholder="Nhập nội dung cần gửi"></textarea><br>
+                        <input type="submit" id="send" value="SEND FEEDBACK" onclick="FeedBack()">
+                </div>
+                <div class="push-form">
+                    <div class="y-fb">
+                        PHẢN HỒI CỦA BẠN
+                    </div>
+                    <span> Chỉ hiển thị phản hồi gần đây nhất. Để tiếp tục gửi phản hồi, vui lòng reload lại trang</span>
+                    <div id="fb-1">
+                        <div class="row-1">
+                            <div id="push-name"></div>
+                            <div id="push-mail"></div>
+                        </div>
+                        <div id="push-content"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>

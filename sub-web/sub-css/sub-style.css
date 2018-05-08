@@ -1,0 +1,370 @@
+body {
+    margin: 0 auto;
+    padding: 0px 0px;
+}
+.container {
+    max-width: 1030px;
+    margin: 0 auto;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    background-color: #f2f4f8;
+    height: auto;
+    user-select: none;
+}
+.pas {
+    color: #4e9efb;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Rajdhani', sans-serif;
+}
+.main {
+    margin-top: 30px;
+    height:inherit;
+}
+.main-left {
+    width: 300px;
+    height:inherit;
+    background-color: #ffffff;
+    margin-left: 10px;
+    float: left;
+    display: inline-block;
+}
+.picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #4e9efb;
+    border: none;
+    margin-left: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Rajdhani', sans-serif;
+}
+.picture:hover {
+    opacity: 0.6;
+}
+.name-call {
+    text-align:center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.connect {
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.friend, .photo {
+    width: 100px;
+    float: left;
+}
+.text {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+hr {
+    clear: both;
+    margin-top: 80px;
+}
+.information {
+    margin-top: 40px;
+    font-size: 15px;
+}
+.left-title {
+    color: #93a7b1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.info {
+    color: black;
+    padding: 10px;
+    line-height: 2;
+}
+.main-right {
+    margin-left: 30px;
+    width: 670px;
+    height:inherit;
+    background-color: #ffffff;
+    float: left;
+    font-size: 15px;
+    display: inline-block;
+    border:none;
+}
+.detail {
+    width: 200px;
+    height: 120px;
+    margin-right: 3px;
+    float: left;
+    display: inline-block;
+}
+.detail-title {
+    padding-top: 20px;
+}
+.detail-content {
+    color: #93a7b1; 
+}
+.about-me {
+    line-height: 2;
+}
+.skill {
+    margin-top: 30px;
+}
+.progress {
+    margin-bottom: 40px;
+}
+.name-percent {
+    margin-bottom: 20px;
+}
+.bottom {
+    height: inherit;
+    height: 5px;
+    background-color: #e9ecef;
+}
+.top {
+    line-height: 0.5;
+    height: inherit;
+}
+.top-blue {
+    width: 488px;
+    background-color: #009efb;
+}
+.top-pink {
+    width: 366px;
+    background-color: #f62d51;
+}
+.top-yellow {
+    width: 518px;
+    background-color: #ffbc34;
+}
+.top-violet {
+    width: 91px;
+    background-color: mediumvioletred;
+}
+/*<!-- end of profile -->*/
+.same {
+    width: 180px;
+    height: 180px;
+    line-height: 180px;
+    border-radius: 100%;
+    background-color: #ffffff;
+    border: 10px solid #cbcfd2;
+    text-align: center;
+    margin: 20px;
+    display: inline-block;
+    float:left;
+}
+.graph {
+    height: 270px;
+    margin-bottom: 30px;
+}
+.project {
+    border-top-color: cadetblue;
+    border-bottom-color: cadetblue;
+    border-left-color:cadetblue;
+}
+.date-code {
+    border-top-color: chocolate;
+    border-right-color: chocolate;
+    border-left-color:chocolate;
+}
+.line-code {
+    border-top-color: chartreuse;
+    border-right-color: chartreuse;
+    border-bottom-color:chartreuse;
+}
+.award {
+    border-bottom-color: deeppink;
+    border-right-color: deeppink;
+    border-left-color:deeppink;
+}
+/* end of thong ke */
+.main-tk-left, .main-tk-right {
+    margin: 20px;
+    width: 440px;
+    float: left;
+}
+.pr-card {
+    margin: 20px;
+    width: 440px;
+    background-color:white;
+    padding: 10px;
+    float: left;
+    display: inline-block;
+}
+.pr-image  {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 320px;
+    background-position: center;
+}
+.pr-image-1 {
+    background-image: url("../../sub-web/sub-image/blog-cione.PNG");
+}
+.pr-image-2 {
+    background-image: url("../../sub-web/sub-image/shopping-bonfire.PNG");
+}
+.pr-image-3 {
+    background-image: url("../../sub-web/sub-image/notify-landing.PNG");
+}
+.pr-image-4 {
+    background-image: url("../../sub-web/sub-image/travel%20project.PNG");
+}
+.preview {
+    width: 400px;
+    height: 80px;
+    display:none;
+    line-height: 320px;
+}
+.preview a {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: deepskyblue;
+    color: #ffffff;
+    border: none;
+    border-radius: 80px 80px;
+    margin-top: 210px;
+    margin-left: 150px;
+    text-decoration: none;
+    font-weight: bold;
+    opacity: 0.6;
+}
+.pr-image:hover .preview {
+    display: block;
+}
+.pr-info {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.pr-date {
+    color: #93a7b1;
+    float: left;
+    display: inline;
+    margin-right: 15px;
+}
+.pr-date-ans {
+    float: left;
+    display: inline;
+    margin-right: 20px;
+}
+/* End of my project */
+.main-content {
+    background-color: white;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+.main-content img {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+}
+.main-content img:hover {
+    opacity: 0.6;
+}
+.main-title {
+    line-height: 2;
+    color: crimson;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.link {
+    color: brown;
+    text-decoration: none;
+}
+/* End of benefit web */
+.enter-form {
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+#y-name {
+    width: 400px;
+    height: 45px;
+    margin-right: 30px;
+    border: none;
+    padding-left: 20px;
+    font-size: 16px;
+}
+#y-mail {
+    width: 300px;
+    height: 45px;
+    border: none;
+    padding-left: 20px;
+    font-size: 16px;
+}
+#y-content {
+    width: 775px;
+    height: 350px;
+    margin-top: 40px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+#send {
+    width: 150px;
+    height: 50px;
+    border:none;
+    background-color: crimson;
+    color: white;
+    margin-top: 20px;
+}
+.push-form {
+    padding-left: 20px;
+    border-top: 2px solid #FF3300;
+    text-align: center;
+}
+#fb-1 {
+    background-color: white;
+}
+.y-fb {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: blue;
+    color: white;
+    width: 200px;
+    padding: 8px;
+    border-radius: 80px 80px;
+    text-align: center;
+    display: inline-block;
+}
+.row-1 {
+    margin-bottom: 30px;
+    height: 40px;
+}
+#push-name {
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin-right: 20px;
+    color: red;
+    float: left;
+    display: inine-block;
+}
+#push-mail {
+    width: auto;
+    height: auto;
+    padding: 20px;
+    color: #990066;
+    float: left;
+    display: inline-block;
+}
+#push-date-time {
+    width: auto;
+    height: 20px;
+    color: white;
+    background-color: green;
+    float; left;
+    display: inline-block;
+}
+#push-content {
+    height: auto;
+    padding: 20px;
+    clear: both;
+    margin-top: 30px;
+    text-align: left;
+}

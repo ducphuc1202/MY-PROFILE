@@ -1,0 +1,220 @@
+.container {
+    width: 100%;
+    height: 1100px;
+    margin: 0 auto;
+    font-family: Open Sans;
+    font-size: 14px;
+    float: left;
+    user-select: none;
+}
+.welcome {
+    width: 100%;
+    height: 50px;
+    float: left;
+/*    margin-left: 30px;*/
+    background-color: #f2f4f8;
+    margin-bottom: 30px;
+}
+.welcome input[type="text"] {
+    width: 300px;
+    border: 1px solid blue;
+    background-color: white;
+    height: 30px;
+    line-height: 30px;
+    
+}
+.welcome input[type="submit"] {
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.welcome input[type="submit"]:hover {
+    opacity: 0.6;
+    color: blue;
+    background-color: white;
+    border: 0.5px solid blue;
+    height: 35px;
+}
+#post-name {
+    float: right;
+    background-color: aquamarine;
+    color: blue;
+    padding: 10px;
+
+}
+
+.header {
+    margin-left: 200px;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: center;
+    height: 80px;
+    clear: both;
+}
+.name {
+    width:200px;
+    display: inline-block;
+    margin-left: 10px;
+    font-family: url('https://fonts.googleapis.com/css?family=Oxygen');
+    font-size: 15px;
+    background-color: #90a4ae;
+    padding: 10px;
+    color: #ffffff;
+}
+.name:hover {
+    opacity: 0.8;
+}
+.source {
+    width: 200px;
+    display: inline-block;
+    font-size: 15px;
+    color: #009efb;
+}
+.date {
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    background-color: #90a4ae;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 100px;
+}
+.follow {
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    display:inline-block;
+    background-color: #09bc49;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.date:hover {
+    opacity: 0.6;
+}
+.follow:hover {
+    opacity: 0.6;
+}
+.follow a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.main-section {
+    padding-top: 40px;
+    height: inherit;
+}
+.navigation {
+    width: 250px;
+    height:inherit;
+    background-color: #868e96;
+    position: relative;
+    float: left;
+    display:inline-block;
+}
+.my-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    top: -140px;
+    margin-left: 25px;
+    border: none;
+}
+.my-image img {
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    margin-top: 30px;
+}
+.my-image img:hover {
+    opacity: 0.6;
+}
+.list {
+    color: #ffffff;
+    padding-left: 20px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.list-title a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #868e96;
+}
+.list-title a:hover {
+    opacity: 0.6;
+}
+.list-content {
+    list-style-type: none;
+    padding-left: 0px;
+    font-family: 'Rajdhani', sans-serif;
+}
+.list-content li {
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
+.list-content li:hover {
+    color: #009efb;
+}
+.list-content {
+    display: none;
+}
+.list-title:hover + .list-content {
+    display: block;
+}
+#loca {
+    background-image: url('../image/pin.png');
+}
+#web {
+    background-image: url('../image/link.png');
+}
+#mail {
+    background-image: url('../image/email.png');
+}
+#phone {
+    background-image: url('../image/phone-call.png');
+}
+.social a {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+    color: #009efb;
+    background-color: #ffffff;
+}
+.social a:hover {
+    color: #ffffff;
+    background-color: #009efb;
+}
+.sign {
+    font-size: 15px;
+    margin-top: 30px;
+}
+.content {
+    width: 1050px;
+    height:inherit;
+    background-color: #ffffff;
+    display: inline-block;
+    float: left;
+    margin-left: 30px; 
+}
+.content iframe {
+    width: 1050px;
+    border: none;
+    height: inherit;
+    margin: 0px;
+    padding: 0px;    
+}
